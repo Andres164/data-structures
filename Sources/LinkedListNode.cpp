@@ -14,7 +14,8 @@ void LinkedListNode::removeElement(int element)
 }
 void LinkedListNode::fetchElement(int element)
 {
-
+    if(this->get_ptr_nextNode() != NULL)
+    if(this->getData() !=)
 }
 void LinkedListNode::printElementsInOrder()
 {
