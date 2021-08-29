@@ -1,7 +1,7 @@
 #pragma once
 #include "../Headers/DataStructureNode.h"
 
-class LinkedListNode : DataStructureNode
+class LinkedListNode : public DataStructureNode
 {
 protected:
     virtual DataStructureNode* getPtrToElement(int element) override;

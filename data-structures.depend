@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1630041675 source:d:\repositorios\data-structures\sources\datastructurenode.cpp
+	"../Headers/DataStructureNode.h"
+
+1630041675 d:\repositorios\data-structures\headers\datastructurenode.h
+	<iostream>
+
+1630125579 source:d:\repositorios\data-structures\sources\linkedlistnode.cpp
+	"../Headers/LinkedListNode.h"
+
+1630207047 d:\repositorios\data-structures\headers\linkedlistnode.h
+	"../Headers/DataStructureNode.h"
+
