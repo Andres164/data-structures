@@ -5,9 +5,14 @@
 1630041675 d:\repositorios\data-structures\headers\datastructurenode.h
 	<iostream>
 
-1630125579 source:d:\repositorios\data-structures\sources\linkedlistnode.cpp
+1630372956 source:d:\repositorios\data-structures\sources\linkedlistnode.cpp
 	"../Headers/LinkedListNode.h"
 
-1630207047 d:\repositorios\data-structures\headers\linkedlistnode.h
+1630210228 d:\repositorios\data-structures\headers\linkedlistnode.h
 	"../Headers/DataStructureNode.h"
+
+1630373515 source:d:\repositorios\data-structures\main.cpp
+	<iostream>
+	"Headers/DataStructureNode.h"
+	"Headers/LinkedListNode.h"
 

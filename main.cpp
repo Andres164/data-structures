@@ -10,6 +10,7 @@ int main()
     ptr = new LinkedListNode(5);
 
     ptr->insertElement(6);
+    ptr->fetchElement(5);
 
     return 0;
 }
