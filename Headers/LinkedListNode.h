@@ -5,7 +5,6 @@ class LinkedListNode : public DataStructureNode
 {
 protected:
     virtual DataStructureNode* getPtrToElement(int element) override;
-    LinkedListNode* get_lastElement();
 public:
     LinkedListNode(int value);
 

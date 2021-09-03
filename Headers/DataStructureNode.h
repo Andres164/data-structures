@@ -22,6 +22,7 @@ public:
     int getData();
     DataStructureNode* get_ptr_previouesNode();
     DataStructureNode* get_ptr_nextNode();
+    DataStructureNode* get_lastElement();
 
     virtual void insertElement(int element) =0;
     virtual void removeElement(int element) =0;
