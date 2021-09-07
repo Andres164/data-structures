@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    DataStructureNode* ptr;
+    LinkedListNode* ptr;
     ptr = new LinkedListNode(5);
 
     ptr->insertElement(6);

@@ -13,4 +13,6 @@ public:
     virtual void fetchElement(int element) override;
     virtual void printElementsInOrder() override;
 
+    void insertionSortLinkedList();
+
 };

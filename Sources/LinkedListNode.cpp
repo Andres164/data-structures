@@ -41,3 +41,33 @@ void LinkedListNode::printElementsInOrder()
 {
 
 }
+
+void LinkedListNode::insertionSortLinkedList()
+{
+    DataStructureNode* firstUnsortedElement = this->get_ptr_nextNode();
+    while(firstUnsortedElement != NULL)
+    {
+        DataStructureNode* elementToSwapWithUnsortedElement = firstUnsortedElement->get_ptr_previouesNode();
+
+        while(elementToSwapWithUnsortedElement != NULL && (elementToSwapWithUnsortedElement->getData()*) == (firstUnsortedElement->getData()*))
+        {
+            elementToSwapWithUnsortedElement = elementToSwapWithUnsortedElement->get_ptr_previouesNode();
+        }
+        DataStructureNode* temporalPtr_elementToSwap = elementToSwapWithUnsortedElement;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
